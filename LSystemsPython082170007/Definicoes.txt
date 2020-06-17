@@ -1,0 +1,18 @@
+﻿N12B - RA082170007
+
+Desafio: L-Systems
+Codificação: Python
+
+Gramática:
+Σ   = Alfabeto da linguagem
+n   = Passos, etapas
+ω   = Axioma, condição inicial
+δ   = Angulo
+pX  = Regras de produção
+
+Σ : B, G, R, F, +, -
+n : 6
+ω : G
+δ : 25º
+p1 : G->F-[[G]+G]+F[+FGR]-B+RR
+p2 : F->FF
